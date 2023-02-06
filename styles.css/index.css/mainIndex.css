@@ -1,0 +1,53 @@
+body {
+    background: url(/src/assets/images/Forma\ 2.svg) no-repeat, #FFFFFF;
+    background-position: right 36%, 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-de-fundo-inicial);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7em;
+}
+
+.cp-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.links-btn {
+    background-color: var(--coral);
+    color: var(--branco);
+    border-radius: 6px;
+    width: 11em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0em;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+}
+
+.links-btn:hover {
+    background-color: var(--coral-claro);
+}
+
+.cp-ilustra {
+    padding-top: 2em;
+}
+
+@media screen and (min-width: 768px) {
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+
+
+}
